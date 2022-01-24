@@ -1,5 +1,12 @@
 const btn = document.querySelector('button');
 
-btn.onclick = function(){
+//btn.onclick = function(){
+  //  alert("click");
+//};
+
+btn.addEventListener('click', () =>{
     alert("click");
-};
+});
+btn.addEventListener('click', ()=>{
+    alert("second click");
+})
